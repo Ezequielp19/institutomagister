@@ -9,7 +9,7 @@ const _geist = Geist({ subsets: ['latin'] })
 const _geistMono = Geist_Mono({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Instituto Magister División Ingresos| Preparación para Ingresos Politécnico y Superior',
+  title: '',
   description: 'Más de 30 años de excelencia preparando alumnos para el Politécnico, Superior de Comercio y San José en Rosario. Cursos de Matemáticas y Lengua con seguimiento personalizado.',
   keywords: ['ingresos rosario', 'politecnico rosario', 'superior de comercio', 'colegio san jose', 'preparacion ingresos', 'clases de apoyo rosario', 'instituto magister'],
   authors: [{ name: 'Instituto Magister' }],
