@@ -14,14 +14,14 @@ export function Navbar() {
   return (
     <nav className="sticky top-0 z-50 w-full bg-background border-b border-border shadow-sm">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-20 md:h-32">
           <Link href="/" className="flex items-center gap-2 group">
             <img
-              src="/logo.png"
+              src="/logo-removebg-preview.png"
               alt="Instituto Magister Logo"
-              className="w-16 h-16 object-contain"
+              className="w-20 h-20 md:w-32 md:h-32 object-contain"
             />
-          
+
           </Link>
 
           {/* Desktop Menu */}

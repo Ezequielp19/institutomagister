@@ -35,7 +35,7 @@ export function WhatsAppFloating() {
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end">
       {/* Popover */}
       {isOpen && (
-        <div className="mb-4 w-[320px] bg-white dark:bg-slate-900 rounded-2xl shadow-2xl overflow-hidden border border-slate-200 dark:border-slate-800 animate-in fade-in slide-in-from-bottom-4 zoom-in-95 duration-300">
+        <div className="mb-4 w-[calc(100vw-3rem)] sm:w-[320px] max-w-[320px] bg-white dark:bg-slate-900 rounded-2xl shadow-2xl overflow-hidden border border-slate-200 dark:border-slate-800 animate-in fade-in slide-in-from-bottom-4 zoom-in-95 duration-300">
           <div className="bg-[#075e54] p-4 flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">

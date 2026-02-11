@@ -64,7 +64,7 @@ export function Contact() {
             onClick={() => window.location.href = 'tel:+5493412720120'}
             className="block group cursor-pointer"
           >
-            <Card className="p-6 text-center border-border/50 group-hover:border-primary/50 group-hover:shadow-md transition-all duration-300">
+            <Card className="p-5 md:p-6 text-center border-border/50 group-hover:border-primary/50 group-hover:shadow-md transition-all duration-300">
               <div className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
                 <Phone className="w-6 h-6 text-primary" />
               </div>
@@ -80,7 +80,7 @@ export function Contact() {
             onClick={handleCopyEmail}
             className="block group cursor-pointer"
           >
-            <Card className="p-6 text-center border-border/50 group-hover:border-primary/50 group-hover:shadow-md transition-all duration-300 relative overflow-hidden">
+            <Card className="p-5 md:p-6 text-center border-border/50 group-hover:border-primary/50 group-hover:shadow-md transition-all duration-300 relative overflow-hidden">
               <div className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
                 <Mail className="w-6 h-6 text-primary" />
               </div>
@@ -101,7 +101,7 @@ export function Contact() {
           </div>
 
           <div className="block">
-            <Card className="p-6 text-center border-border/50 shadow-sm">
+            <Card className="p-5 md:p-6 text-center border-border/50 shadow-sm">
               <div className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4">
                 <MapPin className="w-6 h-6 text-primary" />
               </div>
@@ -115,7 +115,7 @@ export function Contact() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 mb-12">
-          <Card className="p-8 border-border/50">
+          <Card className="p-6 md:p-8 border-border/50">
             <h3 className="text-2xl font-bold text-foreground mb-6">Formulario de Contacto</h3>
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
@@ -187,7 +187,7 @@ export function Contact() {
           </Card>
 
           <div className="space-y-6">
-            <Card className="p-6 border-border/50">
+            <Card className="p-5 md:p-6 border-border/50">
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center">
                   <Clock className="w-6 h-6 text-primary" />
@@ -212,7 +212,7 @@ export function Contact() {
               </div>
             </Card>
 
-            <Card className="p-6 border-border/50 shadow-sm">
+            <Card className="p-5 md:p-6 border-border/50 shadow-sm">
               <h4 className="font-bold text-foreground mb-3">¿Tienes dudas?</h4>
               <p className="text-muted-foreground text-sm">
                 Nuestro equipo de admisiones está listo para responder todas tus preguntas sobre

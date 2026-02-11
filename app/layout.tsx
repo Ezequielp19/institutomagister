@@ -33,6 +33,11 @@ export const metadata: Metadata = {
     title: 'Instituto Magister | Ingresos Rosario',
     description: 'Cursos de preparación para el Politécnico, Superior y San José.',
   },
+  icons: {
+    icon: '/logo-removebg-preview.png',
+    shortcut: '/logo-removebg-preview.png',
+    apple: '/logo-removebg-preview.png',
+  },
   robots: {
     index: true,
     follow: true,
@@ -55,7 +60,7 @@ export default function RootLayout({
               "@type": "EducationalOrganization",
               "name": "Instituto Magister",
               "url": "https://instituto-magister.com.ar",
-              "logo": "https://instituto-magister.com.ar/logo.png",
+              "logo": "https://instituto-magister.com.ar/logo-removebg-preview.png",
               "description": "Preparación para ingresos al Politécnico, Superior de Comercio y San José en Rosario desde hace 30 años.",
               "address": {
                 "@type": "PostalAddress",
