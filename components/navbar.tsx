@@ -21,7 +21,9 @@ export function Navbar() {
               alt="Instituto Magister Logo"
               className="w-20 h-20 md:w-32 md:h-32 object-contain"
             />
-
+            <span className="text-xl md:text-3xl font-extrabold text-primary tracking-tight transition-colors">
+              Instituto Magister
+            </span>
           </Link>
 
           {/* Desktop Menu */}
