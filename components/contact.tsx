@@ -198,6 +198,10 @@ export function Contact() {
               </div>
               <div className="space-y-2 text-muted-foreground text-sm">
                 <div className="flex justify-between">
+                  <span>Días:</span>
+                  <span className="font-medium text-primary">Lunes a Viernes</span>
+                </div>
+                <div className="flex justify-between">
                   <span>Horario:</span>
                   <span className="font-medium text-primary">8:00 - 21:00</span>
                 </div>
