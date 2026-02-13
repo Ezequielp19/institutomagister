@@ -81,24 +81,6 @@ export function About() {
             </div>
           </div>
         </Card>
-
-        <Card className="p-6 md:p-8 bg-gradient-to-r from-primary/10 to-accent/10 border-border/50">
-          <h3 className="text-2xl font-bold text-foreground mb-4">Por Qué Elegirnos</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 md:gap-8">
-            <div>
-              <p className="text-3xl md:text-4xl font-bold text-primary mb-2">30+</p>
-              <p className="text-muted-foreground">Años de experiencia</p>
-            </div>
-            <div>
-              <p className="text-3xl md:text-4xl font-bold text-primary mb-2">Mañana y Tarde</p>
-              <p className="text-muted-foreground">Horarios flexibles</p>
-            </div>
-            <div>
-              <p className="text-3xl md:text-4xl font-bold text-primary mb-2">Nivelación</p>
-              <p className="text-muted-foreground">Clases de apoyo personalizadas</p>
-            </div>
-          </div>
-        </Card>
       </div>
     </section>
   )

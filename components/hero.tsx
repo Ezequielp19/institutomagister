@@ -16,9 +16,39 @@ export function Hero() {
             </p>
           </div>
 
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto px-4 md:px-0">
-            Instituto Magister ofrece cursos de Matemáticas y Lengua para la preparación de ingresos al Politécnico, Superior y Colegio San José. Con 30 años de experiencia, contamos con docentes egresados de estas instituciones. Cupos reducidos, seguimiento personalizado e informes quincenales.
-          </p>
+          <div className="text-left space-y-4 max-w-2xl mx-auto bg-background/50 backdrop-blur-sm p-6 md:p-8 rounded-2xl border border-primary/10 shadow-lg">
+            <p className="text-lg md:text-xl font-bold text-primary mb-2">Nuestro instituto ofrece:</p>
+            <ul className="text-left space-y-3 text-muted-foreground text-base md:text-lg">
+              <li className="flex gap-3">
+                <span className="text-primary font-bold">•</span>
+                <span>Cursos de Matemáticas y Lengua (Idioma Nacional)</span>
+              </li>
+              <li className="flex gap-3">
+                <span className="text-primary font-bold">•</span>
+                <span>Cursos organizados por egresados del Politécnico y Contadores</span>
+              </li>
+              <li className="flex gap-3">
+                <span className="text-primary font-bold">•</span>
+                <span>Treinta años de experiencia en la preparación de materias y la tutoría de alumnos.</span>
+              </li>
+              <li className="flex gap-3">
+                <span className="text-primary font-bold">•</span>
+                <span>Seguimiento permanente con informes quincenales de los alumnos.</span>
+              </li>
+              <li className="flex gap-3">
+                <span className="text-primary font-bold">•</span>
+                <span>Clases de nivelación para cumplir con los mínimos requeridos para preparar el examen de ingreso.</span>
+              </li>
+              <li className="flex gap-3">
+                <span className="text-primary font-bold">•</span>
+                <span>Cupos reducidos</span>
+              </li>
+              <li className="flex gap-3">
+                <span className="text-primary font-bold">•</span>
+                <span>Horarios de cursado por la mañana y por la tarde.</span>
+              </li>
+            </ul>
+          </div>
 
           <div className="flex flex-col sm:flex-row gap-4 md:gap-6 pt-8 justify-center items-center">
             <Button

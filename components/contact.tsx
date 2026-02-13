@@ -198,27 +198,13 @@ export function Contact() {
               </div>
               <div className="space-y-2 text-muted-foreground text-sm">
                 <div className="flex justify-between">
-                  <span>Lunes - Viernes:</span>
-                  <span className="font-medium">8:00 - 18:00</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Sábados:</span>
-                  <span className="font-medium">9:00 - 13:00</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Domingos:</span>
-                  <span className="font-medium">Cerrado</span>
+                  <span>Horario:</span>
+                  <span className="font-medium text-primary">8:00 - 21:00</span>
                 </div>
               </div>
             </Card>
 
-            <Card className="p-5 md:p-6 border-border/50 shadow-sm">
-              <h4 className="font-bold text-foreground mb-3">¿Tienes dudas?</h4>
-              <p className="text-muted-foreground text-sm">
-                Nuestro equipo de admisiones está listo para responder todas tus preguntas sobre
-                nuestros programas, aranceles y proceso de inscripción.
-              </p>
-            </Card>
+
           </div>
         </div>
       </div>

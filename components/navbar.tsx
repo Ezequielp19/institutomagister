@@ -15,15 +15,20 @@ export function Navbar() {
     <nav className="sticky top-0 z-50 w-full bg-background border-b border-border shadow-sm">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20 md:h-32">
-          <Link href="/" className="flex items-center gap-2 group">
+          <Link href="/" className="flex items-center gap-3 group">
             <img
               src="/logo-removebg-preview.png"
               alt="Instituto Magister Logo"
-              className="w-20 h-20 md:w-32 md:h-32 object-contain"
+              className="w-16 h-16 md:w-24 md:h-24 object-contain"
             />
-            <span className="text-xl md:text-3xl font-extrabold text-primary tracking-tight transition-colors">
-              Instituto Magister
-            </span>
+            <div className="flex flex-col justify-center leading-none">
+              <span className="text-lg md:text-2xl font-extrabold text-primary tracking-tight">
+                Instituto Magister
+              </span>
+              <span className="text-xs md:text-sm font-bold text-foreground/70 tracking-widest uppercase mt-0.5">
+                División Ingresos
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Menu */}
